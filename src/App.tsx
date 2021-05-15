@@ -1,20 +1,19 @@
 //import { TiposBasicos } from './typescript/TiposBasicos';
 //import { ObjetosLiterales } from './typescript/ObjetosLiterales';
-import { Funciones } from './typescript/Funciones';
-
-
+//import { Funciones } from './typescript/Funciones';
+import { Contador } from "./Components/Contador";
 
 const App = () => {
   return (
     <div className="mt-2">
       <h1>Introducción a TS-React</h1>
-      <hr/>
+      <hr />
       {/* <TiposBasicos/> */}
-        {/* <ObjetosLiterales /> */}
-        <Funciones />
+      {/* <ObjetosLiterales /> */}
+      {/* <Funciones /> */}
+      <Contador />
     </div>
-  )
-}
+  );
+};
 
-export default App
-
+export default App;
